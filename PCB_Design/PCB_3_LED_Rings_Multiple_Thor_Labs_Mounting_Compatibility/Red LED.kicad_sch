@@ -1,0 +1,1744 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid f6304b80-4baf-4816-8c8d-addfb8b95d71)
+
+  (paper "A4")
+
+  (lib_symbols
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -0.762)
+            (xy -4.572 -2.286)
+            (xy -3.81 -2.286)
+            (xy -4.572 -2.286)
+            (xy -4.572 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -0.762)
+            (xy -3.302 -2.286)
+            (xy -2.54 -2.286)
+            (xy -3.302 -2.286)
+            (xy -3.302 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "R" (at 2.032 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "R" (at 0 0 90)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at -1.778 0 90)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "R res resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Resistor" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "R_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "R_0_1"
+        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line (at 0 3.81 270) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -3.81 90) (length 1.27)
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+  )
+
+  (junction (at 60.96 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 27000792-f72e-422b-a1e2-91ed288dc803)
+  )
+  (junction (at 92.71 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 308e0836-c76a-4ade-b13b-8ba13373cf1e)
+  )
+  (junction (at 60.96 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid 3fb5569a-b1b4-4a0e-9db1-f8e8a52fafc1)
+  )
+  (junction (at 81.28 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid 46e0acc9-c146-4a3f-8390-f9f9db64ba76)
+  )
+  (junction (at 52.07 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid 785311d2-8825-4c72-aa44-096d87539c92)
+  )
+  (junction (at 127 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 84bbdd1c-ed38-4718-a301-ffdda3d1e532)
+  )
+  (junction (at 71.12 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 867718f3-ed98-4cdf-96ff-c93e84f3ad0f)
+  )
+  (junction (at 52.07 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid 99ec4e99-bde7-4cab-97d3-29998f436a7c)
+  )
+  (junction (at 71.12 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid a090f3df-e2b9-41c7-8691-033ffd4eb6b9)
+  )
+  (junction (at 104.14 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid aace07a2-dec6-4be5-8776-fab50c88ce0b)
+  )
+  (junction (at 81.28 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid beee9c9c-1389-4e6e-83ab-6233da55a660)
+  )
+  (junction (at 115.57 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid c000cf17-41a8-4da0-9165-854d1ecc2916)
+  )
+  (junction (at 43.18 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid c353d0a5-a694-4d81-8d56-e0837b98439e)
+  )
+  (junction (at 115.57 73.66) (diameter 0) (color 0 0 0 0)
+    (uuid d03387f0-f57d-4e2e-bb22-5f35e1a308ea)
+  )
+  (junction (at 92.71 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid d734fb19-f2dd-4a2c-b32d-972a5de1a0e7)
+  )
+  (junction (at 104.14 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid d9cad8c6-06b5-4358-a4a6-41c5fd09da31)
+  )
+
+  (wire (pts (xy 71.12 38.1) (xy 81.28 38.1))
+    (stroke (width 0) (type default))
+    (uuid 05018c12-3bc8-40eb-a97d-cc56c184272b)
+  )
+  (wire (pts (xy 104.14 49.53) (xy 104.14 52.07))
+    (stroke (width 0) (type default))
+    (uuid 08979cc3-e674-496d-98ad-a0ac3464a99d)
+  )
+  (wire (pts (xy 52.07 38.1) (xy 60.96 38.1))
+    (stroke (width 0) (type default))
+    (uuid 1139cfaa-8eb6-476b-b8f8-ab769dc4b09f)
+  )
+  (wire (pts (xy 60.96 38.1) (xy 71.12 38.1))
+    (stroke (width 0) (type default))
+    (uuid 1643625f-8972-4818-b04b-7663569fb6ec)
+  )
+  (wire (pts (xy 43.18 73.66) (xy 43.18 71.12))
+    (stroke (width 0) (type default))
+    (uuid 1c82b20d-9f6f-41e5-9be5-93e8a77aa755)
+  )
+  (wire (pts (xy 92.71 59.69) (xy 92.71 63.5))
+    (stroke (width 0) (type default))
+    (uuid 1fb3f5ee-ed52-4558-b1c6-a873cf9c2793)
+  )
+  (wire (pts (xy 115.57 73.66) (xy 127 73.66))
+    (stroke (width 0) (type default))
+    (uuid 228aeabc-4176-4984-b157-f6ab27a217c8)
+  )
+  (wire (pts (xy 60.96 38.1) (xy 60.96 41.91))
+    (stroke (width 0) (type default))
+    (uuid 22fdb6b8-60cb-4dde-a08b-206feed623d9)
+  )
+  (wire (pts (xy 104.14 59.69) (xy 104.14 63.5))
+    (stroke (width 0) (type default))
+    (uuid 27afd6a1-34c8-4136-96c3-7655cd062daf)
+  )
+  (wire (pts (xy 104.14 71.12) (xy 104.14 73.66))
+    (stroke (width 0) (type default))
+    (uuid 2b559c4f-8b80-4f1d-bd50-dfda1752fbd6)
+  )
+  (wire (pts (xy 43.18 59.69) (xy 43.18 63.5))
+    (stroke (width 0) (type default))
+    (uuid 2e633689-d75c-41ce-8bd6-33ff972ca89a)
+  )
+  (wire (pts (xy 81.28 73.66) (xy 71.12 73.66))
+    (stroke (width 0) (type default))
+    (uuid 2ebdedc4-f818-47b5-9b38-3a2758cc3653)
+  )
+  (wire (pts (xy 92.71 38.1) (xy 104.14 38.1))
+    (stroke (width 0) (type default))
+    (uuid 313398dd-3129-450f-b3dd-82361002c696)
+  )
+  (wire (pts (xy 92.71 73.66) (xy 104.14 73.66))
+    (stroke (width 0) (type default))
+    (uuid 323f03ac-d221-452e-bfc7-43257bcb26e6)
+  )
+  (wire (pts (xy 81.28 59.69) (xy 81.28 63.5))
+    (stroke (width 0) (type default))
+    (uuid 332e06a3-f3d6-4f54-9671-27b914b197ac)
+  )
+  (wire (pts (xy 81.28 38.1) (xy 81.28 41.91))
+    (stroke (width 0) (type default))
+    (uuid 3c298729-153b-4273-ac6a-948607af5513)
+  )
+  (wire (pts (xy 115.57 71.12) (xy 115.57 73.66))
+    (stroke (width 0) (type default))
+    (uuid 46d55307-9f06-440d-b3d1-8f74dd4fbea7)
+  )
+  (wire (pts (xy 92.71 71.12) (xy 92.71 73.66))
+    (stroke (width 0) (type default))
+    (uuid 53b62a8b-2b85-4dd5-9b2b-ed427a09c624)
+  )
+  (wire (pts (xy 115.57 38.1) (xy 115.57 41.91))
+    (stroke (width 0) (type default))
+    (uuid 54730f2d-f522-442c-83fb-b24655f19f29)
+  )
+  (wire (pts (xy 43.18 38.1) (xy 52.07 38.1))
+    (stroke (width 0) (type default))
+    (uuid 62f9e7ab-1e35-430b-bd8a-5698a1d06c65)
+  )
+  (wire (pts (xy 43.18 49.53) (xy 43.18 52.07))
+    (stroke (width 0) (type default))
+    (uuid 6464d799-5e4c-41b5-934d-35d1f67a5a77)
+  )
+  (wire (pts (xy 60.96 73.66) (xy 52.07 73.66))
+    (stroke (width 0) (type default))
+    (uuid 6986906d-e4e3-4628-ae7b-b101d16f7b7d)
+  )
+  (wire (pts (xy 71.12 59.69) (xy 71.12 63.5))
+    (stroke (width 0) (type default))
+    (uuid 6cbdad28-fa96-4ee7-99cc-4585c5e851dd)
+  )
+  (wire (pts (xy 104.14 38.1) (xy 115.57 38.1))
+    (stroke (width 0) (type default))
+    (uuid 6dc70930-0457-48fd-87f0-7c6fdd78235b)
+  )
+  (wire (pts (xy 127 49.53) (xy 127 52.07))
+    (stroke (width 0) (type default))
+    (uuid 707b8c4e-78ff-41a7-8e59-4715a826c38a)
+  )
+  (wire (pts (xy 104.14 41.91) (xy 104.14 38.1))
+    (stroke (width 0) (type default))
+    (uuid 79983b45-4e90-41d0-9d28-9b25dd1919f4)
+  )
+  (wire (pts (xy 127 59.69) (xy 127 63.5))
+    (stroke (width 0) (type default))
+    (uuid 7a88ced0-f556-45c9-a59a-96d2af81188d)
+  )
+  (wire (pts (xy 52.07 49.53) (xy 52.07 52.07))
+    (stroke (width 0) (type default))
+    (uuid 7bbedd5c-a820-4909-9ca6-75cf537746c4)
+  )
+  (wire (pts (xy 60.96 49.53) (xy 60.96 52.07))
+    (stroke (width 0) (type default))
+    (uuid 8042e7fc-267c-4311-86f8-4251702ae821)
+  )
+  (wire (pts (xy 71.12 49.53) (xy 71.12 52.07))
+    (stroke (width 0) (type default))
+    (uuid 80daf50d-4802-4393-a0ae-2b1317f56f57)
+  )
+  (wire (pts (xy 43.18 41.91) (xy 43.18 38.1))
+    (stroke (width 0) (type default))
+    (uuid 82be3a36-7dd7-44cc-b5e6-eb8122a490ff)
+  )
+  (wire (pts (xy 60.96 71.12) (xy 60.96 73.66))
+    (stroke (width 0) (type default))
+    (uuid 82e372b2-22a9-48e5-8f0f-4ea3414376fd)
+  )
+  (wire (pts (xy 115.57 38.1) (xy 127 38.1))
+    (stroke (width 0) (type default))
+    (uuid 8336a783-6066-46e7-8533-43b0d1beb6d2)
+  )
+  (wire (pts (xy 81.28 49.53) (xy 81.28 52.07))
+    (stroke (width 0) (type default))
+    (uuid 8bbc2117-720e-4ba9-86c9-36c17f36b182)
+  )
+  (wire (pts (xy 71.12 71.12) (xy 71.12 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9429426f-2814-49e4-b37b-e842194afa5d)
+  )
+  (wire (pts (xy 52.07 71.12) (xy 52.07 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9498897c-4d07-4751-8457-0eb8d2010ba4)
+  )
+  (wire (pts (xy 104.14 73.66) (xy 115.57 73.66))
+    (stroke (width 0) (type default))
+    (uuid 9dd7d290-373c-4d57-91f2-104e396d3c91)
+  )
+  (wire (pts (xy 40.64 38.1) (xy 43.18 38.1))
+    (stroke (width 0) (type default))
+    (uuid a11a619d-3274-417e-8771-10b63337379b)
+  )
+  (wire (pts (xy 127 71.12) (xy 127 73.66))
+    (stroke (width 0) (type default))
+    (uuid a1a81f54-c033-4399-97da-fc592841a4c3)
+  )
+  (wire (pts (xy 52.07 38.1) (xy 52.07 41.91))
+    (stroke (width 0) (type default))
+    (uuid a7da6430-2c5b-4637-beb0-f2dfa1c1f4bf)
+  )
+  (wire (pts (xy 92.71 38.1) (xy 92.71 41.91))
+    (stroke (width 0) (type default))
+    (uuid bc0191c8-5d7c-4489-a0e1-2f3a8bc34889)
+  )
+  (wire (pts (xy 52.07 73.66) (xy 43.18 73.66))
+    (stroke (width 0) (type default))
+    (uuid bc42eed6-3f21-469e-b243-7ca7122fc8d3)
+  )
+  (wire (pts (xy 115.57 59.69) (xy 115.57 63.5))
+    (stroke (width 0) (type default))
+    (uuid bc780425-c1d5-4ec1-bc53-fc2f09eaba82)
+  )
+  (wire (pts (xy 71.12 73.66) (xy 60.96 73.66))
+    (stroke (width 0) (type default))
+    (uuid c0829ea3-b086-4bb5-ad88-c8c71b8ae0ff)
+  )
+  (wire (pts (xy 127 73.66) (xy 129.54 73.66))
+    (stroke (width 0) (type default))
+    (uuid c9fd73c4-012a-4f2a-b4a1-ba5100d933b9)
+  )
+  (wire (pts (xy 115.57 49.53) (xy 115.57 52.07))
+    (stroke (width 0) (type default))
+    (uuid ced9cf9b-fe89-4541-9906-d9d169fdf8a7)
+  )
+  (wire (pts (xy 127 38.1) (xy 127 41.91))
+    (stroke (width 0) (type default))
+    (uuid dead7bf9-fef6-4d20-8e8e-602b12c993e8)
+  )
+  (wire (pts (xy 81.28 38.1) (xy 92.71 38.1))
+    (stroke (width 0) (type default))
+    (uuid e600e79b-cc2f-403a-b725-57e2436b5582)
+  )
+  (wire (pts (xy 60.96 59.69) (xy 60.96 63.5))
+    (stroke (width 0) (type default))
+    (uuid eaec9885-45c4-4f32-8c44-2d60ce4cd696)
+  )
+  (wire (pts (xy 71.12 38.1) (xy 71.12 41.91))
+    (stroke (width 0) (type default))
+    (uuid ed7078b8-32cb-4f5c-ab4b-0256223e1962)
+  )
+  (wire (pts (xy 81.28 71.12) (xy 81.28 73.66))
+    (stroke (width 0) (type default))
+    (uuid ef2039f1-eef8-421c-9fb0-41995f2ae3ba)
+  )
+  (wire (pts (xy 52.07 59.69) (xy 52.07 63.5))
+    (stroke (width 0) (type default))
+    (uuid f2e2e815-0378-40bd-b42f-4a46cca3a1d4)
+  )
+  (wire (pts (xy 81.28 73.66) (xy 92.71 73.66))
+    (stroke (width 0) (type default))
+    (uuid f5042640-cf4a-406b-8314-d4b98f09dcaf)
+  )
+  (wire (pts (xy 92.71 49.53) (xy 92.71 52.07))
+    (stroke (width 0) (type default))
+    (uuid fd855391-b9b1-4da1-a987-f97ce50c67de)
+  )
+
+  (global_label "Red_LED_Start" (shape input) (at 40.64 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 3b7d893d-9cfb-4195-8a22-d3076cd16b7d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 24.1688 38.1 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
+  (global_label "Red_LED_End" (shape input) (at 129.54 73.66 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid c3cce2f3-aef6-4151-908d-514356ebcbd8)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 144.8621 73.66 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 43.18 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 1609da84-416e-4144-a665-37b51c206bb6)
+    (property "Reference" "D1" (at 44.45 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 46.99 70.1675 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 43.18 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 85e870a4-76ab-41b0-9d0a-9eb0355ddc5e))
+    (pin "2" (uuid 2850de07-0b6d-4ae6-9510-9673f57e9a7b))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D1") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D19") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D1") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D31") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D1") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D28") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D38") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 127 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 17277b9a-ba34-4bf6-b383-c9db077f5dfe)
+    (property "Reference" "R11" (at 129.54 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 129.54 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 125.222 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b3f9de2d-428f-434d-b9f7-bc69caaff452))
+    (pin "2" (uuid 5379c7c6-04b4-4423-a76e-952e49bb881f))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R9") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R27") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 127 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 239527ac-dd24-43de-b593-55bead8becf4)
+    (property "Reference" "D9" (at 132.08 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 120.65 53.34 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 127 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 70fac86c-f351-4733-bf0e-ead7ca15f8b8))
+    (pin "2" (uuid 4700690e-3013-4942-8390-fd3bc83091d1))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D9") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D27") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D9") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D28") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D9") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D27") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D53") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 92.71 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 26a2c220-25fe-45c8-8faa-ff27ce299c45)
+    (property "Reference" "D6" (at 96.52 67.6275 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 96.52 78.74 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 92.71 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e32ac727-5bda-49ea-8700-a8190184eae9))
+    (pin "2" (uuid b689f350-5ace-40ad-80d8-b4967f610711))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D6") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D6") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D36") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D6") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D33") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D48") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 104.14 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 26b3cf54-c091-4d2a-9f3e-775e8dd03777)
+    (property "Reference" "R11" (at 106.68 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 106.68 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 102.362 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 104.14 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 581c2fcc-2b8b-4bf2-b9c3-79579455aef9))
+    (pin "2" (uuid 7b4be109-af47-4392-9471-f0b8b5854f47))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R7") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R25") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R34") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 52.07 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2a2c53e5-50d0-4b96-8e50-518af4a1ed51)
+    (property "Reference" "R11" (at 54.61 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 54.61 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 50.292 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 52.07 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 56dcb061-0c0f-4d05-bff6-89ed216fb5ce))
+    (pin "2" (uuid feb71776-46f9-4052-915a-ff5988ed8714))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R2") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R20") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 81.28 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 2fbc4759-3a77-47c5-aa20-9f4371b5cfbf)
+    (property "Reference" "D5" (at 85.09 67.6275 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 85.09 70.1675 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 81.28 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 81.28 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e7239205-1515-4280-b757-e1afdc2d5668))
+    (pin "2" (uuid 6d978bf1-34e9-47ef-af8e-2c21107d05df))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D5") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D23") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D5") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D35") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D5") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D32") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D46") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 92.71 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 35207ea7-f704-4b4e-baff-95c2767c0742)
+    (property "Reference" "D6" (at 96.52 56.1975 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 96.52 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 92.71 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9437c6cf-43a4-4a31-aa97-55ea77134c51))
+    (pin "2" (uuid 532bd8d4-effc-4d0c-90bb-f979f0fa0659))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D6") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D6") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D24") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D6") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D36") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D6") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D24") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D47") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 127 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3ac9dafb-43ff-4846-b706-1fb0d2cb8aac)
+    (property "Reference" "D9" (at 132.08 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 120.65 64.77 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 127 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 127 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 85cb530a-e644-48a4-8436-ada6842d0a79))
+    (pin "2" (uuid d5c97d20-0973-430a-a3cc-3679b4792abe))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D9") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D9") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D27") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D9") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D28") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D9") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D36") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D54") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 71.12 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3acad820-13c3-48ba-b2e5-3a06ef84c4d2)
+    (property "Reference" "D4" (at 72.39 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 74.93 70.1675 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 71.12 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d3ad2259-c388-4a9f-a617-ef1232893100))
+    (pin "2" (uuid 40082c80-0b23-44c3-8f0a-192320440a97))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D4") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D22") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D4") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D34") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D4") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D31") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D44") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 115.57 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 40c9ac08-1ab7-4bcf-9c1c-b053ca63a40b)
+    (property "Reference" "D8" (at 120.65 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 109.22 58.42 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 115.57 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b80573d7-79e0-4b2e-9f20-c2088ef40c09))
+    (pin "2" (uuid 34d1c2f3-8a6b-4d96-ab0c-1ef094352414))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D8") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D26") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D8") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D29") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D8") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D26") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D51") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 60.96 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 52d44f85-2c1a-405c-aefe-37d359c398dd)
+    (property "Reference" "R11" (at 63.5 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 63.5 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 59.182 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 40b6269d-038e-4b46-af7d-4c7fd8134bd7))
+    (pin "2" (uuid 1ff4c884-4228-47e0-833f-2eb64ebc5f04))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R3") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R21") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 60.96 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5fa28446-33fb-43cc-b6da-c2bc03cdc028)
+    (property "Reference" "D3" (at 62.23 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 64.77 58.7375 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 60.96 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e2fa6b55-2309-4e58-ba73-323d5bc974ad))
+    (pin "2" (uuid 001dbf44-b2dc-4c2f-8644-9f59bc458baf))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D3") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D21") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D3") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D33") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D3") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D21") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D41") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 60.96 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6bde7c0d-7da1-4e09-ba2f-1f2be2082e34)
+    (property "Reference" "D3" (at 62.23 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 64.77 70.1675 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 60.96 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 60.96 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f96adde4-dacc-440e-90ed-ecbde9e7746e))
+    (pin "2" (uuid e6bd35c1-a9ea-44ce-880c-02b27108e6ba))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D3") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D3") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D21") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D3") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D33") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D3") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D30") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D42") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 104.14 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 74094e7f-5ce0-4a45-82c7-a5fabb38b227)
+    (property "Reference" "D7" (at 107.95 67.31 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 106.68 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 104.14 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 104.14 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 98c0d8df-f485-4e1c-94b3-fd00bf9530da))
+    (pin "2" (uuid 0ba51d3f-0e8b-4a32-b31e-2bc7e7f99f5c))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D7") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D25") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D7") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D30") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D7") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D34") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D50") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 43.18 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 78843cc1-88fe-46d5-9e17-ca3662890d18)
+    (property "Reference" "D1" (at 44.45 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 46.99 58.7375 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 43.18 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid febe70b9-cb1e-465e-9408-b6433ea0c4e0))
+    (pin "2" (uuid 8c2e3677-6ef6-4262-9735-489a0717a435))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D1") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D19") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D1") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D31") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D1") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D19") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D37") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 81.28 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7a5508f7-1c8c-4065-8a75-1c9047798baf)
+    (property "Reference" "R11" (at 83.82 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 83.82 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 79.502 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 81.28 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c1348477-9412-4660-93c4-8d3e36bce7b7))
+    (pin "2" (uuid 8e0c5aa4-bcdd-452e-b405-040c44c30775))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R5") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R23") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R32") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 52.07 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 83104972-3707-43a7-a41f-49a54f2acb6d)
+    (property "Reference" "D2" (at 53.34 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 55.88 70.1675 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 52.07 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 52.07 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 43547b33-05bf-468a-83fc-69c2f70a35f4))
+    (pin "2" (uuid f5602d2b-658c-48b5-bac0-bd567ab931e0))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D2") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D20") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D2") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D32") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D2") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D29") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D40") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 81.28 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9c3556ae-6790-44c6-a2c8-07ce9e17afc7)
+    (property "Reference" "D5" (at 85.09 56.1975 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 85.09 58.7375 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 81.28 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 81.28 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid bb352a60-22de-4440-93f2-e9b874390e96))
+    (pin "2" (uuid 9f36f33b-e8ad-449a-a59d-dd1c4bf02790))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D5") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D5") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D23") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D5") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D35") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D5") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D23") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D45") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 52.07 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a2b5d4f2-c740-46e2-9835-d0daa0dc3f4b)
+    (property "Reference" "D2" (at 53.34 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 55.88 58.7375 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 52.07 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 52.07 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a14f630-bf4f-4347-9ea8-d951da9b7ddb))
+    (pin "2" (uuid 9bc1319f-3ac1-49ae-a3f9-94e748e39c26))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D2") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D2") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D20") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D2") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D32") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D2") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D20") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D39") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 71.12 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b0e56958-9cf5-42ef-a4ec-61fc2c6a3143)
+    (property "Reference" "R11" (at 73.66 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 73.66 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 69.342 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 420132f9-6645-4f4b-8921-2f2af923df86))
+    (pin "2" (uuid 9bfeb334-73e6-4831-a5b4-f26a578791ac))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R4") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R22") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 71.12 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b38d5fb0-dbf0-41a1-9379-07a438ebfc88)
+    (property "Reference" "D4" (at 72.39 55.88 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 74.93 58.7375 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 71.12 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 71.12 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e532f5d-812f-44bd-81fd-bd2f7f927bf2))
+    (pin "2" (uuid 13408294-0520-440f-a17f-bb1adcd88ddb))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D4") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D4") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D22") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D4") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D34") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D4") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D22") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D43") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 115.57 67.31 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid bae0d281-6106-45d4-8e1d-953bceb585e7)
+    (property "Reference" "D8" (at 120.65 67.31 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 109.22 69.85 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 115.57 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 50789cdf-7c6c-4089-ac65-f9ed38251e24))
+    (pin "2" (uuid bc9a7dfa-a22e-46d6-8f7f-abc48d62e3e7))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D8") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D8") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D26") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D8") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D29") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D8") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D35") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D52") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 43.18 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c618fccc-7e8b-49c3-aabd-44536bc1398c)
+    (property "Reference" "R11" (at 45.72 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 45.72 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 41.402 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 43.18 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4c428409-1b62-4f44-9886-7168d1c06e75))
+    (pin "2" (uuid c3cf6404-5b29-450d-8eed-ddb0dbeeb4d8))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R1") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R19") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R28") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 92.71 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cacac7b8-91bb-47b9-8bbc-bb71781cef1e)
+    (property "Reference" "R11" (at 95.25 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 95.25 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 90.932 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 92.71 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 7bcf4282-afc0-4696-9a1e-706b15fcf353))
+    (pin "2" (uuid 5059b1cc-1627-4dc4-8071-8a8cf037d1f8))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R6") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R24") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R33") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 104.14 55.88 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid e0c35860-2a3d-4f32-a05c-a69c8c56eac1)
+    (property "Reference" "D7" (at 107.95 55.88 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 106.68 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 104.14 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 104.14 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f247f32e-2f39-4e3c-9904-7bf2d8c799ee))
+    (pin "2" (uuid d7121890-8de5-4a8b-af88-5556dc5ca00b))
+    (instances
+      (project "untitled"
+        (path "/2909db4b-e7ca-4b3d-b8b8-720f3898e595"
+          (reference "D7") (unit 1)
+        )
+      )
+      (project "LED_Illuminator_Revised"
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b"
+          (reference "D7") (unit 1)
+        )
+        (path "/4e559a88-004a-41a4-8dc6-f62b9d4f677b/d987b1eb-862e-4b1b-8145-5116fe9f8f08"
+          (reference "D25") (unit 1)
+        )
+      )
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "D7") (unit 1)
+        )
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/aed08636-13b8-4b96-9fc6-64c5f06a60f4"
+          (reference "D30") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "D7") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "D25") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "D49") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 115.57 45.72 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f9e958a4-87c1-4179-b4ca-689bc6bf4cda)
+    (property "Reference" "R11" (at 118.11 44.45 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "47" (at 118.11 46.99 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (at 113.792 45.72 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 115.57 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2c5505c8-621d-4332-b62f-00f5eedefaec))
+    (pin "2" (uuid a139ab28-c53c-495a-ad3e-2f3bf15396cb))
+    (instances
+      (project "3_LED_Rings"
+        (path "/9590fcf9-0d43-4008-9224-2b0e2612d891/c380e80a-b7f4-403c-9982-a6bd790990df"
+          (reference "R11") (unit 1)
+        )
+      )
+      (project "LED_Revised_New"
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/80797c74-4c27-4f57-8322-9f62f18d2012"
+          (reference "R8") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/bdb98da7-3031-4fd2-9ef8-eec88695a2e6"
+          (reference "R26") (unit 1)
+        )
+        (path "/985f529a-94b0-4332-b14e-ba2a298ddda3/6273c658-3219-486e-ad28-df0469d0c3e2"
+          (reference "R35") (unit 1)
+        )
+      )
+      (project "Inner_LED_RIng"
+        (path "/daedd578-555e-40f6-83e1-39698ba7e9b8"
+          (reference "R11") (unit 1)
+        )
+      )
+    )
+  )
+)
