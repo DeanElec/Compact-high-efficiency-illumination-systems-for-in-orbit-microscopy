@@ -6,6 +6,10 @@ Presents all data associated with the development of my thesis for a 3rd year fi
 The project overall was a success as the system was able to take both bright field and dark field images with high enough resolution and resolving power to accurate image Diatoms, C.elegans and Buccal Epithelial Cells.
 
 Due to cost restraint a set of cheap lenses were used, but the datasheet that came with these lenses had all incorrect parameters such as FOV or MOD. For this reason significant time was spent characterising the lenses so the data could be relied upon.
+
+### Images Taken on the Microscope
+![Alt Text](Results/diatoms_bright_and_dark_field.png "Diatoms Bright and Dark Field")
+
 ***
 
 ## Future Work / Improvements
