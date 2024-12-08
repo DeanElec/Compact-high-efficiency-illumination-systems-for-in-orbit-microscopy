@@ -10,6 +10,8 @@ Due to cost restraint a set of cheap lenses were used, but the datasheet that ca
 ### Images Taken on the Microscope
 ![Alt Text](Results/diatoms_bright_and_dark_field.png "Diatoms Bright and Dark Field")
 
+
+![Alt Text](Results/Buccal_Epithelial_Cells_Bright_and_Dark_Field.png "Buccal Epithelial Bright and Dark Field")
 ***
 
 ## Future Work / Improvements
