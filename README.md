@@ -7,6 +7,13 @@ The project overall was a success as the system was able to take both bright fie
 
 Due to cost restraint a set of cheap lenses were used, but the datasheet that came with these lenses had all incorrect parameters such as FOV or MOD. For this reason significant time was spent characterising the lenses so the data could be relied upon.
 
+### CAD Images of the Microscope System
+***
+![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Final_microscope_front.png "Diatoms Bright and Dark Field")
+
+![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Final_microscope_design_back.png "Diatoms Bright and Dark Field")
+
+
 ### Images Taken on the Microscope
 ***
 #### Diatoms Bright and Dark Field
