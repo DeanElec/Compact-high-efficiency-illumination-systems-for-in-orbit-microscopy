@@ -8,9 +8,10 @@ The project overall was a success as the system was able to take both bright fie
 Due to cost restraint a set of cheap lenses were used, but the datasheet that came with these lenses had all incorrect parameters such as FOV or MOD. For this reason significant time was spent characterising the lenses so the data could be relied upon.
 
 ### Images Taken on the Microscope
+#### Diatoms Bright and Dark Field
 ![Alt Text](Results/diatoms_bright_and_dark_field.png "Diatoms Bright and Dark Field")
 
-
+#### Buccal Epithelial Cells Bright and Dark Field
 ![Alt Text](Results/Buccal_Epithelial_Cells_Bright_and_Dark_Field.png "Buccal Epithelial Bright and Dark Field")
 ***
 
