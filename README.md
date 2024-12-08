@@ -10,6 +10,7 @@ Due to cost restraint a set of cheap lenses were used, but the datasheet that ca
 
 ## Future Work / Improvements
 If this project was to be taken forward, the current PCB's would work but really require a PCB assembly house to manufacture and populate the board as it is too densely packed with too small component to do by hand and was a main struggle in the project.
+
 That said an improved design for the illumination board has already been created and tested based on addressable SK6805 LEDs and will be uploaded to this github repo in the future once the driver board for it has been finalised and tested.
 The new design will be able to be controlled via a plug-in for the open source microscopy software micro-manager, it will provide a GUI that will allow the user to control the illumination system from the host PC running micro-manager, as micro-manager
 was wrote in java it is inherently cross platform and thus the plug-in should work for any OS.
