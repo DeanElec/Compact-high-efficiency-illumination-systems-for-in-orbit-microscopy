@@ -9,10 +9,8 @@ Due to cost restraint a set of cheap lenses were used, but the datasheet that ca
 
 ### CAD Images of the Microscope System
 ***
-![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Final_microscope_front.png "Diatoms Bright and Dark Field")
-
-![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Final_microscope_design_back.png "Diatoms Bright and Dark Field")
-
+![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Front_and_Back_CAD.png "Diatoms Bright and Dark Field")
+***
 
 ### Images Taken on the Microscope
 ***
