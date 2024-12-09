@@ -3,7 +3,7 @@ Presents all data associated with the development of my thesis for a 3rd year fi
 
 ***
 ## Project Evaluation
-The project overall was a success as the system was able to take both bright field and dark field images with high enough resolution and resolving power to accurate image Diatoms, C.elegans and Buccal Epithelial Cells.
+The project overall was a success as the system was able to take both bright field and dark field images with high enough resolution and resolving power to accurate image Diatoms, C.elegans and Buccal Epithelial Cells, however the code was not developed to run autonomously but the code developed for the Raspberry Pi as part of the GUI control could be quickly and easily modified to make a autonomous system due directly relevent code wrote in a generic way such that it can be reused.
 
 Due to cost restraint a set of cheap lenses were used, but the datasheet that came with these lenses had all incorrect parameters such as FOV or MOD. For this reason significant time was spent characterising the lenses so the data could be relied upon.
 
@@ -22,6 +22,16 @@ For full evaluation of the design and the data my thesis can be found in the the
 #### Buccal Epithelial Cells Bright and Dark Field
 ![Alt Text](Results/Buccal_Epithelial_Cells_Bright_and_Dark_Field.png "Buccal Epithelial Bright and Dark Field")
 ***
+## Control Interface
+For ease of testing / taking images with the microscope a GUI was developed in C++ using QT to control all aspects of the microscope remotely when connected on the same network. This allowed for control of:
+- Automatic transfer of the images taken on the Raspberry Pi to the host PC
+- Save directory locations for both the Raspberry Pi side and the host PC side for saving the recieved images from the Raspberry Pi
+- Brightness and PWM frequency controll of all 3 colour rings plus the central cyan LED used for rhinefield illumination
+- Multiple basic (binary) image processing options such as the type of demosaic algorithm, and others
+- Advanced image processing options such as custom brightness, white balance and gamma options
+- Finally a button to allow the user to take an image once parameters have been set by the user
+
+![Alt Text](Code/GUI_Overview.png/GUI_Overview "GUI Overview")
 
 ## Future Work / Improvements
 If this project was to be taken forward, the current PCB's would work but really require a PCB assembly house to manufacture and populate the board as it is too densely packed with too small component to do by hand and was a main struggle in the project.
