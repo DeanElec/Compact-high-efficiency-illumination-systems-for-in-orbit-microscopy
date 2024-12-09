@@ -12,11 +12,6 @@ Due to cost restraint a set of cheap lenses were used, but the datasheet that ca
 
 For full evaluation of the design and the data my thesis can be found in the thesis directory.
 
-### CAD Images of the Microscope System
-***
-![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Front_and_Back_CAD.png "Diatoms Bright and Dark Field")
-***
-
 ### Images Taken on the Microscope
 ***
 #### Diatoms Bright and Dark Field
@@ -25,6 +20,12 @@ For full evaluation of the design and the data my thesis can be found in the the
 #### Buccal Epithelial Cells Bright and Dark Field
 ![Alt Text](Results/Buccal_Epithelial_Cells_Bright_and_Dark_Field.png "Buccal Epithelial Bright and Dark Field")
 ***
+
+### CAD Images of the Microscope System
+***
+![Alt Text](Microscope_CAD_Designs/Final_Microscope_CAD_Images/Front_and_Back_CAD.png "Diatoms Bright and Dark Field")
+***
+
 ## Control Interface
 For ease of testing / taking images with the microscope a GUI was developed in C++ using QT to control all aspects of the microscope remotely when connected on the same network. This allowed for control of:
 - Automatic transfer of the images taken on the Raspberry Pi to the host PC
