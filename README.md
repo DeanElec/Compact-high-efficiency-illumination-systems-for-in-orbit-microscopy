@@ -2,7 +2,7 @@
 Presents all data associated with the development of my thesis for a 3rd year final year project at the University of Nottingham
 ***
 ## Project Overview
-The aim of the project was to develop a solution to image specimens such as C. elegans and similar sized organisms in bright field and darkfield modalities, that would fit in a 1U Cube Sat (10cm^3).
+The aim of the project was to develop a solution to image specimens such as C. elegans and similar sized organisms in bright field and darkfield modalities, that would fit in a 1U Cube Sat (10cm^3) for less than £200.
 
 ***
 ## Project Evaluation
