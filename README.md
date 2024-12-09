@@ -30,8 +30,7 @@ For ease of testing / taking images with the microscope a GUI was developed in C
 - Multiple basic (binary) image processing options such as the type of demosaic algorithm, and others
 - Advanced image processing options such as custom brightness, white balance and gamma options
 - Finally a button to allow the user to take an image once parameters have been set by the user
-
-![Alt Text](Code/GUI_Overview.png/GUI_Overview "GUI Overview")
+![Alt Text](Code/GUI_Overview.png "GUI Overview")
 
 ## Future Work / Improvements
 If this project was to be taken forward, the current PCB's would work but really require a PCB assembly house to manufacture and populate the board as it is too densely packed with too small component to do by hand and was a main struggle in the project.
