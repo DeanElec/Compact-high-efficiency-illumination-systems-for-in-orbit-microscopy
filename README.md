@@ -39,7 +39,7 @@ That said an improved design for the illumination board has already been created
 The new design will be able to be controlled via a plug-in for the open source microscopy software micro-manager, it will provide a GUI that will allow the user to control the illumination system from the host PC running micro-manager, as micro-manager
 was wrote in java it is inherently cross platform and thus the plug-in should work for any OS.
 
-Also as potential future upgrades would be to add a form of auto focus as although the microscope worked and gathered highly detailed images it was hard to get the specimens in focus.
+Also as potential future upgrades would be to add a form of auto focus as although the microscope worked and gathered detailed images it was hard to get the specimens in focus.
 ***
 
 
